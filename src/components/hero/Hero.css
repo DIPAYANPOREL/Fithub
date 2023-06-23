@@ -38,9 +38,13 @@
   left: 8px;
   border-radius: 3rem;
   top: 5px;
-  z-index: 1;
+  transform-style: preserve-3d;
+  transform: translateZ(1px);
+  /* z-index: 1px; */
 }
 
 .the-best-ad > span {
-    z-index: 2;
-   }
+  transform-style: preserve-3d;
+  /* z-index: 2px; */
+  transform: translateZ(2px);
+}
